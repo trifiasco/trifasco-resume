@@ -20,7 +20,14 @@ npm install --global trifiasco-resume
 
 Note - If you are a ubuntu user, and you don't have proper permission settings, then you may get `EACCESS ERROR`. Just append `sudo` before the command and you will be set.
 
-At last run `trifiasco-resume` in the terminal.
+If you installed it globally, then run the following command in the terminal - 
+```
+trifiasco-resume
+```
+If you used the first command, then go to the `node_modules` folder, where the package was installed and then from the terminal run 
+```
+node trifiasco-resume
+```
 
 # Feedback
 
