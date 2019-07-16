@@ -2,12 +2,13 @@
   "name": "resumearnabroy-npm-package",
   "version": "1.0.0",
   "description": "an npm package for my personal resume",
+  "repository": "https://github.com/trifiasco/resumeArnabRoy-npm-package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arnab Roy",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
     "inquirer": "^6.5.0"
