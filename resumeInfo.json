@@ -12,8 +12,10 @@
     {
       "Company Name": "Enosis Solutions",
       "Position": "Software Engineer",
-      "Joining Date": "01-12-2017",
-      "Leaving Date": "",
+      "Timeline": {
+        "Start": "December, 2017",
+        "End": "Present"
+      },
       "Key Responsibilities": [
         "Developed multiple application wide features on a large Fin-Tech web application.",
         "Globalized(Internationalized) a full scale web application to support any number of locales(as of now 4) by using several localizing frameworks and libraries in both back and front end",
@@ -54,7 +56,7 @@
         "Node.js",
         "AngularJs"
       ],
-      "Database": [
+      "Databases": [
         "Microsoft SQL Server",
         "MySQL",
         "SQLITE"
@@ -62,10 +64,27 @@
       "Others": [
         "Data Structures",
         "Algorithms",
-        "OOP"
+        "OOP",
         "git"
       ]
     }
   ],
-  "Projects": [] 
+  "Projects": [
+    {
+      "Name": "Automated-Code-Judge",
+      "About": {
+        "Description" : "A LAN-based client server  system to judge computer codes",
+        "Language": "Python 3.5x"
+      },
+      "github-link": "https://github.com/trifiasco/Automated-Code-Judge"
+    },
+    {
+      "Name": "Awaaz",
+      "About": {
+        "Description" : "A text to speech converter mobile application",
+        "Language": "Android"
+      },
+      "github-link": "https://github.com/howcum/Awaaz"
+    }
+  ] 
 }
