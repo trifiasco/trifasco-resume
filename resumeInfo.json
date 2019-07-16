@@ -1,0 +1,71 @@
+{
+  "Personal Information": [
+    {
+      "Name": "Arnab Roy",
+      "Email": "trifiasco@gmail.com",
+      "Phone": "+8801681689173",
+      "Github-Profile": "https://github.com/trifiasco"
+    }
+    
+  ],
+  "Professional Experience": [
+    {
+      "Company Name": "Enosis Solutions",
+      "Position": "Software Engineer",
+      "Joining Date": "01-12-2017",
+      "Leaving Date": "",
+      "Key Responsibilities": [
+        "Developed multiple application wide features on a large Fin-Tech web application.",
+        "Globalized(Internationalized) a full scale web application to support any number of locales(as of now 4) by using several localizing frameworks and libraries in both back and front end",
+        "Designed & Implemented framework to support different fiscal year format (from -12 to +12) in all financial logics and reports’ calculations by devising formulas using modular arithmetic to replace manual conversion, improve efficiency and reduce the length of code-base by 90%",
+        "Designed & developed REST APIs and AngularJS components to translate the legacy application (built in ASP .NET MVC) to modularized SOA (Service-Oriented-Application).",
+        "Reduced server query response by 15-20% by designing several constructive algorithms while Porting over legacy application to SOA."      
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "Institution": "Military Institute of Science & Technology",
+      "Degree": "B.Sc in Computer Science & Engineering",
+      "Timeline": {
+        "Start": "January 2013",
+        "End": "April 2018"
+      }
+    },
+    {
+      "Institution": "Notre Dame College",
+      "Degree": "Higher Secondary School Certificate",
+      "Timeline": {
+        "Start": "June 2010",
+        "End": "July 2012"
+      }
+    }
+  ],
+  "Technical Skills": [
+    {
+      "Languages": [
+        "C++",
+        "Python",
+        "Javascript",
+        "C#"
+      ],
+      "Web Technologies and Frameworks": [
+        "ASP.NET MVC",
+        "Node.js",
+        "AngularJs"
+      ],
+      "Database": [
+        "Microsoft SQL Server",
+        "MySQL",
+        "SQLITE"
+      ],
+      "Others": [
+        "Data Structures",
+        "Algorithms",
+        "OOP"
+        "git"
+      ]
+    }
+  ],
+  "Projects": [] 
+}
