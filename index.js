@@ -8,7 +8,7 @@ var response = chalk.bold.green;
 
 var resume = require("./resumeInfo.json");
 
-const MAX_ALLOWED_CHAR_PER_LINE = 100;
+const MAX_ALLOWED_CHAR_PER_LINE = 70;
 const MIN_CHAR_LIMIT_FOR_NO_FORMATTING = 50;
 
 var resumePrompts = {
@@ -99,10 +99,14 @@ function resumeHandler() {
       return;
     }
     var option = answer.resumeOptions;
+    var iterations = 0;
     console.log(response("-----------------------------------------------------------------------------"));
     resume[`${option}`].forEach(info => {
-      console.log("\n")
+      if(iterations > 0){
+        console.log("\n")
+      }
       printEntry(0, info, true);
+      iterations++;
       
     });
     console.log(response("-----------------------------------------------------------------------------"));
