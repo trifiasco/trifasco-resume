@@ -6,7 +6,7 @@ var chalk = require("chalk");
 
 var response = chalk.bold.green;
 
-var resume = require("./resumeInfo.json");
+var resume = require("./info/resumeInfo.json");
 
 const MAX_ALLOWED_CHAR_PER_LINE = 70;
 const MIN_CHAR_LIMIT_FOR_NO_FORMATTING = 50;
