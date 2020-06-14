@@ -4,17 +4,30 @@
       "Name": "Arnab Roy",
       "Email": "trifiasco@gmail.com",
       "Phone": "+8801681689173",
-      "Github-Profile": "https://github.com/trifiasco"
+      "Github-Profile": "https://github.com/trifiasco",
+      "LinkedIn-Profile": "https://www.linkedin.com/in/arnab-roy-600403a1/"
     }
     
   ],
   "Professional Experience": [
     {
+      "Company Name": "Craftsmen Ltd.",
+      "Position": "Software Development Engineer",
+      "Timeline": {
+        "Start": "December, 2019",
+        "End": "Present"
+      },
+      "Key Responsibilities": [
+        "Developed application wide features on a ​ Web Application ​for​ Digitizing Newsroom.",
+        "Designed and developed a microservice from scratch to communicate and process payload to or from other third party vendors."
+      ]
+    },
+    {
       "Company Name": "Enosis Solutions",
       "Position": "Software Engineer",
       "Timeline": {
         "Start": "December, 2017",
-        "End": "Present"
+        "End": "November, 2019"
       },
       "Key Responsibilities": [
         "Developed multiple application wide features on a large Fin-Tech web application.",
@@ -49,27 +62,49 @@
         "C++",
         "Python",
         "Javascript",
-        "C#"
+        "C#",
+        "F#"
       ],
       "Web Technologies and Frameworks": [
-        "ASP.NET MVC",
         "Node.js",
-        "AngularJs"
+        "Django",
+        "React.js",
+        "GraphQL",
+        "Apollo",
+        "AngularJs",
+        "ASP.NET MVC"
       ],
       "Databases": [
+        "DynamoDb",
         "Microsoft SQL Server",
         "MySQL",
         "SQLITE"
+      ],
+      "Cloud Technology": [
+        "AWS Services"
       ],
       "Others": [
         "Data Structures",
         "Algorithms",
         "OOP",
-        "git"
+        "Functional Programming",
+        "git",
+        "Docker"
       ]
     }
   ],
   "Projects": [
+    {
+      "Name": "Horcruxifier",
+      "About": {
+        "Description" : "An application to secure files through encryption with an added layer of security",
+        "Language": "Node.js, React"
+      },
+      "github-link-cli-version": "https://github.com/trifiasco/Horcruxifier",
+      "github-link-web-frontend": "https://github.com/trifiasco/horcruxifier-web-client",
+      "github-link-web-backend": "https://github.com/trifiasco/horcruxifier-web-backend",
+      "live-on-heroku-link": "https://trifiasco-horcruxifier.herokuapp.com/"
+    },
     {
       "Name": "Automated-Code-Judge",
       "About": {
