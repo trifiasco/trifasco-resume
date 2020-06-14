@@ -1,6 +1,6 @@
 {
   "name": "trifiasco-resume",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "an npm package for my personal resume",
   "repository": "https://github.com/trifiasco/trifasco-resume",
   "main": "index.js",
